@@ -136,7 +136,7 @@ A concise technical description would be:
 
 ## Files in the Repo
 
-- [`main.pony`](/Users/anvishasingh/Downloads/Gossip-Protocol/main.pony)
+- main.pony
   Main simulation source.
 - `pony`, `pony.exe`, `pony.lib`, `pony.pdb`, `pony.ilk`, `pony.exp`
   Compiled artifacts that appear to have been generated from prior builds.
