@@ -120,30 +120,3 @@ After building:
 
 The program outputs the total time taken for the network to converge or terminate.
 
-## Interview Talking Points
-
-This project gives you strong material for systems interviews because you can talk about:
-
-- why the **actor model** is a natural fit for distributed node simulation
-- how **topology choice** changes convergence characteristics
-- why **Gossip** is good for simple dissemination but **Push-Sum** is useful for distributed aggregation
-- how **imperfect 3D / small-world shortcuts** improve propagation speed
-- how decentralized protocols trade exact coordination for scalability and resilience
-
-A concise technical description would be:
-
-> Built a distributed systems simulator in Pony using the actor model to implement Gossip and Push-Sum across full, line, 3D, and imperfect-3D topologies, measuring convergence behavior in decentralized networks.
-
-## Files in the Repo
-
-- main.pony
-  Main simulation source.
-- `pony`, `pony.exe`, `pony.lib`, `pony.pdb`, `pony.ilk`, `pony.exp`
-  Compiled artifacts that appear to have been generated from prior builds.
-
-## Notes
-
-- The simulation starts from node `0`.
-- The `3D`-style topologies assume the node count maps into a cube using the cube root logic in the coordinator.
-- Push-Sum uses a threshold-based convergence rule over consecutive ratio changes.
-- The repository is best presented as a **distributed algorithms / systems project**, not as a production networking stack.
