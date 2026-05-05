@@ -12,7 +12,7 @@ This repository is a compact but high-signal example of distributed systems thin
 - it supports multiple **network topologies** to compare propagation behavior
 - it measures **time to convergence**, which makes the project useful for algorithmic performance experiments
 
-Conceptually, this project touches ideas that show up in real systems such as:
+Conceptually, this project touches ideas that show up in real systems such as
 
 - **anti-entropy / epidemic replication**
 - **peer-to-peer failure-tolerant dissemination**
